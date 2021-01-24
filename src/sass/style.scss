@@ -1,0 +1,102 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/animate';
+
+@import 'base/variables';
+@import "base/animations";
+
+* {
+  font-family: 'Caveat', cursive;
+}
+
+.container {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.burger {
+  display: none;
+}
+
+.title {
+  font-family: 'Satisfy', cursive;
+  color: $orange;
+  font-size: 46px;
+  text-align: left;
+  &_pink {
+    color: $darkBlue;
+  }
+}
+
+.descr {
+  font-family: 'Dosis', sans-serif;
+  color: $black;
+  font-size: 22px;
+  text-align: left;
+  margin-top: 20px;
+  &_pink {
+    color: $textPink;
+  }
+}
+
+.recipes {
+  font-size: 36px;
+  color: $red;
+  transition: all 0.3s;
+  margin-top: 10px;
+  display: flex;
+  &_right {
+    justify-content: flex-end;
+    margin-top: 0;
+  }
+  &:hover {
+    text-decoration: none;
+    color: $orange;
+    &:after {
+      transition: all 0.3s;
+      margin-left: 25px;
+      content: url("../img/recipe_arrow_or.svg");
+      transform: skewY(15deg);
+    }
+  }
+  &:after {
+    content: url("../img/recipe_arrow.svg");
+    display: block;
+    margin-left: 15px;
+    transition: all 0.3s;
+  }
+
+  &_pink {
+    color: $blue;
+    &:after {
+      content: url("../img/pink/recipe_arrow.svg");
+      display: block;
+      margin-left: 15px;
+      transition: all 0.3s;
+    }
+    &:hover {
+      text-decoration: none;
+      color: $textPink;
+      &:after {
+        transition: all 0.3s;
+        margin-left: 25px;
+        content: url("../img/pink/recipe_arrow_pink.svg");
+        transform: skewY(15deg);
+      }
+    }
+  }
+}
+
+
+@import "blocks/promo";
+@import "blocks/macaroni";
+@import "blocks/penne";
+@import "blocks/farfalle";
+@import "blocks/spaghetti";
+@import "blocks/gift";
+@import "blocks/form";
+@import "blocks/footer";
+@import "blocks/mobile";
+@import "blocks/pageup";
+
+@import 'base/media';

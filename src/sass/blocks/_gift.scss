@@ -1,0 +1,85 @@
+.gift {
+  min-height: 835px;
+  background-color: $bg;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 60px;
+  &_pink {
+    background-color: $pinkBg;
+  }
+  &__woman {
+    z-index: 1;
+    position: relative;
+    width: 350px;
+    height: 332px;
+    margin-bottom: 15px;
+  }
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 914px;
+  }
+  &__bubble {
+    width: 420px;
+    height: 187px;
+    animation: bubble 3.5s ease-in infinite;
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
+  &__t-shirt {
+    margin-left: 10px;
+    transform: translateY(-105px);
+    width: 320px;
+    height: 440px;
+  }
+  &__secret {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__text {
+    color: $red;
+    font-size: 48px;
+    position: relative;
+    &:after {
+      display: block;
+      content: url("../img/gift_line.svg");
+      transform: rotate(-9deg) translate(22px,-59px);
+      right: 0;
+      position: absolute;
+      transition: transform 0.5s ease;
+    }
+    &:hover {
+      &:after {
+        transform: rotate(0deg) translate(25px,-45px);
+      }
+    }
+    &_pink {
+      color: #C56A6E;
+      &:after {
+        content: url("../img/pink/gift_line.svg");
+      }
+    }
+  }
+  &__heart {
+    margin-top: 20px;
+    width: 90px;
+    height: 99px;
+    animation-play-state: paused;
+    &:hover {
+      animation: heartbeat 1s ease infinite;
+    }
+  }
+  &__smile {
+    width: 400px;
+    height: 247px;
+    margin-top: 40px;
+  }
+  &__box {
+    display: none;
+    position: absolute;
+  }
+}

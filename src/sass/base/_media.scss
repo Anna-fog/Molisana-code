@@ -1,0 +1,1221 @@
+@media (max-width: 1496px) {
+  .container {
+    max-width: 1450px;
+  }
+  .promo {
+    min-height: 930px;
+    &__macaroni {
+      width: 540px;
+      height: 540px;
+    }
+    &__woman {
+      width: 270px;
+      height: 368px;
+    }
+    &__bubble {
+      width: 290px;
+      height: 124px;
+    }
+    &__arrow {
+      width: 100px;
+      height: 134px;
+    }
+  }
+
+  .title {
+    font-size: 42px;
+  }
+  .descr {
+    font-size: 20px;
+  }
+  .recipes {
+    font-size: 32px;
+  }
+
+  .macaroni {
+    &__bunch {
+      width: 500px;
+      height: 317px;
+    }
+    &__macaronina {
+      width: 220px;
+      height: 193px;
+    }
+    &__cheese {
+      width: 350px;
+      height: 265px;
+    }
+    &__bubble {
+      width: 270px;
+      height: 143px;
+    }
+    &__plate {
+      width: 450px;
+      height: 262px;
+    }
+    &__info {
+      width: 435px;
+      margin-top: 80px;
+    }
+    &__cubes {
+      top: 1370px;
+    }
+  }
+  .descr {
+    margin-top: 10px;
+  }
+
+  .penne {
+    min-height: 570px;
+    padding-bottom: 90px;
+    &__macaroni {
+      width: 200px;
+      height: 120px;
+    }
+    &__tomato {
+      width: 249px;
+      height: 222px;
+    }
+    &__plate {
+      width: 470px;
+      height: 257px;
+    }
+    &__hearts {
+      width: 100px;
+      height: 62px;
+    }
+    &__cheese {
+      width: 300px;
+      height: 227px;
+    }
+    &__info {
+      width: 485px;
+    }
+    &__images {
+      transform: translateY(-10px);
+    }
+  }
+
+  .farfalle {
+    &__info {
+      width: 500px;
+    }
+    &__lines {
+      top: 2830px;
+      width: 450px;
+      height: 1321px;
+    }
+    &__plate {
+      width: 570px;
+      height: 359px;
+      margin-top: 20px;
+    }
+    &__img {
+      width: 300px;
+      height: 221px;
+    }
+    &__right {
+      padding-top: 80px;
+    }
+  }
+  .spaghetti {
+    &__wrapper {
+      padding: 180px 0 0 30px;
+    }
+    &__plate {
+      width: 450px;
+      height: 261px;
+    }
+    &__dry {
+      width: 230px;
+      height: 460px;
+    }
+    &__info {
+      width: 460px;
+    }
+  }
+  .gift {
+    min-height: 660px;
+    padding-left: 15px;
+    &__woman {
+      width: 290px;
+      height: 275px;
+    }
+    &__bubble {
+      width: 350px;
+      height: 143px;
+    }
+    &__t-shirt {
+      width: 280px;
+      height: 385px;
+      margin-left: 0;
+      transform: translateY(-94px);
+    }
+    &__smile {
+      width: 360px;
+      height: 222px;
+    }
+    &__wrapper {
+      width: 645px;
+    }
+    &__heart {
+      width: 80px;
+      height: 88px;
+    }
+    &__text {
+      font-size: 46px;
+      &:after {
+        transform: rotate(-9deg) translate(22px,-50px) scale(0.7);
+      }
+
+      &:hover {
+        &:after {
+          transform: rotate(0deg) translate(25px,-45px) scale(0.7);
+        }
+      }
+    }
+    .form {
+      input {
+        width: 300px;
+        height: 65px;
+      }
+      .btn {
+        width: 300px;
+        height: 65px;
+      }
+    }
+  }
+
+  .footer {
+    &__menu {
+      width: 640px;
+    }
+    &__social {
+      width: 50px;
+      height: 155px;
+      flex-direction: column;
+      right: 59px;
+      top: 12%;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 985px;
+  }
+  .promo {
+    min-height: 810px;
+    &__top {
+      height: 160px;
+    }
+    &__logo {
+      img {
+        width: 150px;
+        height: 135px;
+      }
+    }
+    &__macaroni {
+      width: 500px;
+      height: 500px;
+      transform: translate(50%, 35px);
+      &:hover {
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)) brightness(1.1);
+        transform: translate(50%,35px) rotate(720deg);
+      }
+    }
+    &__bubble {
+      margin-left: 110px;
+      width: 250px;
+      height: 106px;
+    }
+    &__woman {
+      width: 220px;
+      height: 300px;
+    }
+    &__arrow {
+      width: 80px;
+      height: 107px;
+    }
+    &__gift {
+      transform: translate(-15px, 40px);
+    }
+    &__menu-item {
+      width: 150px;
+      font-size: 30px;
+    }
+    &__menu {
+      transform: translate(-5px, 55px);
+      height: 495px;
+    }
+  }
+
+  .macaroni {
+    &__macaronina {
+      margin-left: -300px;
+      width: 200px;
+      height: 175px;
+    }
+    &__cheese-wrapper {
+      margin-left: 215px;
+    }
+    &__plate {
+      width: 400px;
+      height: 233px;
+    }
+    &__cubes {
+      top: 1320px;
+    }
+  }
+
+  .penne {
+    padding-top: 60px;
+    &__wrapper {
+      flex-direction: column;
+      transform: translateY(25px);
+    }
+    &__images {
+      width: auto;
+    }
+    &__info {
+      width: 585px;
+    }
+  }
+
+  .farfalle {
+    &__img {
+      width: 250px;
+      height: 185px;
+    }
+    &__lines {
+      width: 370px;
+      height: 1086px;
+      top: 2990px;
+    }
+    &__info {
+      width: 400px;
+    }
+    &__plate {
+      width: 470px;
+      height: 296px;
+    }
+  }
+
+  .spaghetti {
+    min-height: 700px;
+    &__wrapper {
+      padding: 120px 0 0 30px;
+    }
+    &__plate {
+      width: 400px;
+      height: 232px;
+      margin-left: 60px;
+    }
+    &__dry {
+      width: 190px;
+      height: 380px;
+    }
+    &__right {
+      height: 600px;
+      width: 52%;
+    }
+  }
+
+  .gift {
+    flex-direction: column;
+    padding-bottom: 60px;
+    &__t-shirt {
+      margin-left: 10px;
+    }
+    &__smile {
+      width: 320px;
+      height: 197px;
+    }
+  }
+
+  .footer {
+    &__social {
+      height: 140px;
+      top: 15%;
+    }
+    &__facebook {
+      transform: scale(0.8);
+    }
+    &__instagram {
+      transform: scale(0.8);
+    }
+    &__twitter {
+      transform: scale(0.8);
+    }
+    &__menu-item {
+      font-size: 30px;
+    }
+    &__menu {
+      width: 600px;
+      top: 15%;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    width: 750px;
+  }
+  .promo {
+    min-height: 620px;
+    &__top {
+      height: 130px;
+    }
+
+    &__logo {
+      img {
+        width: 110px;
+        height: 100px;
+      }
+    }
+
+    &__macaroni {
+      width: 370px;
+      height: 370px;
+      transform: translate(50%,35px);
+      &:hover {
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)) brightness(1.1);
+        transform: translate(50%,35px) rotate(720deg);
+      }
+    }
+
+    &__woman {
+      width: 160px;
+      height: 218px;
+    }
+
+    &__bubble {
+      width: 170px;
+      height: 72px;
+    }
+
+    &__menu-item {
+      font-size: 22px;
+      width: 110px;
+    }
+    &__menu {
+      height: 370px;
+      transform: translate(0,30px);
+    }
+    &__content {
+      align-items: center;
+    }
+    &__arrow {
+      width: 65px;
+      height: 87px;
+    }
+  }
+
+  .macaroni {
+    min-height: 795px;
+    &__bunch {
+      width: 370px;
+      height: 234px;
+      transform: translate(-210px, -55px);
+    }
+    &__macaronina {
+      width: 160px;
+      height: 140px;
+      margin-left: -230px;
+      margin-top: 130px;
+    }
+    &__cheese {
+      width: 285px;
+      height: 216px;
+    }
+    &__bubble {
+      width: 200px;
+      height: 106px;
+    }
+    &__plate {
+      width: 330px;
+      height: 192px;
+    }
+    &__cubes {
+      top: 1050px;
+      width: 140px;
+      height: 138px;
+    }
+    &__info {
+      width: 370px;
+      margin-left: 45px;
+    }
+    &__cheese-wrapper {
+      margin-left: 160px;
+    }
+  }
+  .descr {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .recipes {
+    font-size: 28px;
+    margin-top: 10px;
+  }
+
+  .penne {
+    padding-top: 40px;
+    &__macaroni {
+      width: 170px;
+      height: 102px;
+    }
+    &__tomato {
+      width: 216px;
+      height: 192px;
+    }
+    &__plate {
+      width: 380px;
+      height: 208px;
+    }
+    &__cheese {
+      width: 260px;
+      height: 197px;
+    }
+    &__wrapper {
+      transform: translateY(25px);
+    }
+  }
+
+  .farfalle {
+    height: 470px;
+    &__info {
+      width: 330px;
+    }
+    &__lines {
+      left: 5px;
+      width: 340px;
+      height: 998px;
+      top: 2370px;
+    }
+    &__plate {
+      width: 370px;
+      height: 233px;
+    }
+    &__left {
+      height: 470px;
+    }
+    &__img {
+      width: 220px;
+      height: 162px;
+    }
+  }
+  .spaghetti {
+    min-height: 660px;
+    &__right {
+      height: 500px;
+      width: 55%;
+    }
+    &__plate {
+      width: 320px;
+      height: 185px;
+    }
+    &__dry {
+      width: 145px;
+      height: 290px;
+    }
+  }
+
+  .gift {
+    padding-bottom: 0;
+    &__box {
+      width: 70px;
+      height: 70px;
+    }
+    &__woman {
+      width: 250px;
+      height: 238px;
+    }
+    &__bubble {
+      width: 300px;
+      height: 122px;
+    }
+    &__t-shirt {
+      width: 250px;
+      height: 344px;
+    }
+    &__wrapper {
+      width: 555px;
+      transform: translateY(-50px);
+    }
+    &__smile {
+      width: 300px;
+      height: 185px;
+      margin-top: 20px;
+    }
+    &__text {
+      font-size: 44px;
+    }
+    &__secret {
+      transform: translateY(-80px);
+    }
+
+    .form {
+      input {
+        width: 250px;
+        height: 55px;
+        padding: 15px 15px;
+        font-size: 16px;
+      }
+      .btn  {
+        width: 250px;
+        height: 55px;
+        font-size: 18px;
+      }
+    }
+  }
+
+  .footer {
+    &__social {
+      position: relative;
+      flex-direction: row;
+      margin-top: 10px;
+      height: 40px;
+      width: 155px;
+      right: 0;
+      top: 0;
+    }
+    &__menu  {
+      top: 0;
+      margin-top: 10px;
+    }
+    &__menu-item {
+      font-size: 28px;
+    }
+    &__copyright {
+      transform: translateY(15px);
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+
+  .container {
+    width: 550px;
+  }
+
+  .burger {
+    display: block;
+    position: absolute;
+    top: 45px;
+    right: 75px;
+    color: $orange;
+    font-size: 22px;
+    cursor: pointer;
+    &_pink {
+      color: $blue;
+    }
+  }
+
+  .promo {
+    min-height: 550px;
+    &__menu {
+      display: none;
+    }
+    &__content {
+      align-items: flex-start;
+    }
+    &__gift {
+      position: absolute;
+      left: -15px;
+      top: 180px;
+    }
+    &__woman {
+      width: 140px;
+      height: 191px;
+    }
+    &__arrow {
+      width: 55px;
+      height: 74px;
+      transform: translateY(-10px);
+      &:hover {
+        transform: translateY(-10px);
+      }
+    }
+    &__macaroni {
+      transform: translate(50%,15px);
+      width: 350px;
+      height: 350px;
+      &:hover {
+        filter: none;
+        transform: translate(50%,15px);
+      }
+    }
+    &__logo {
+      &:hover {
+        transform: none;
+      }
+    }
+  }
+  .descr {
+    font-size: 17px;
+  }
+  .recipes {
+    &:hover {
+      text-decoration: none;
+      color: $red;
+      &:after {
+        margin-left: 10px;
+        content: url("../img/recipe_arrow.svg");
+        transform: scale(0.7);
+      }
+    }
+    &:after {
+      transform: scale(0.7);
+      margin-left: 10px;
+    }
+
+    &_pink {
+      &:hover {
+        text-decoration: none;
+        color: $blue;
+        &:after {
+          margin-left: 10px;
+          content: url("../img/pink/recipe_arrow.svg");
+          transform: scale(0.7);
+        }
+      }
+      &:after {
+        transform: scale(0.7);
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .macaroni {
+    padding: 0;
+    min-height: 670px;
+    &__bunch {
+      width: 270px;
+      height: 171px;
+      transform: translate(-165px,-10px);
+    }
+    &__macaronina {
+      margin-left: -165px;
+      margin-top: 80px;
+      width: 130px;
+      height: 114px;
+    }
+    &__plate {
+      width: 240px;
+      height: 140px;
+    }
+    &__lower {
+      margin-top: 0;
+    }
+    &__cheese-wrapper {
+      margin-left: 85px;
+    }
+    &__lower {
+      flex-direction: column;
+    }
+    &__info {
+      width: 512px;
+      margin-top: 30px;
+      margin-left: 30px;
+    }
+    &__cheese {
+      width: 230px;
+      height: 174px;
+    }
+    &__bubble {
+      width: 180px;
+      height: 96px;
+    }
+    &__cubes {
+      width: 110px;
+      height: 108px;
+      top: 930px;
+    }
+  }
+
+  .penne {
+    padding-top: 30px;
+    min-height: 600px;
+    &__wrapper {
+      padding-left: 30px;
+    }
+    &__info {
+      width: 500px;
+    }
+    &__images {
+      text-align: left;
+    }
+    &__plate {
+      width: 295px;
+      height: 161px;
+    }
+    &__macaroni {
+      width: 150px;
+      height: 90px;
+    }
+    &__tomato {
+      width: 191px;
+      height: 170px;
+    }
+    &__hearts {
+      width: 80px;
+      height: 50px;
+    }
+    &__cheese {
+      width: 220px;
+      height: 166px;
+    }
+  }
+
+  .farfalle {
+    height: 600px;
+    z-index: 0;
+    &__wrapper {
+      flex-direction: column;
+    }
+    &__lines {
+      height: 976px;
+      width: 275px;
+      object-fit: cover;
+      object-position: 20% 10px;
+      top: 2346px;
+    }
+    &__left {
+      height: 277px;
+      width: 100%;
+    }
+    &__right {
+      width: 100%;
+      padding-top: 40px;
+    }
+    &__info {
+      width: 507px;
+    }
+    &__plate {
+      margin-top: 0;
+      transform: translateY(-20px);
+    }
+    &__img {
+      &:hover {
+        transform: none;
+      }
+    }
+  }
+
+  .spaghetti {
+    min-height: 620px;
+    &__right {
+      z-index: 0;
+      width: 45%;
+      height: 450px;
+    }
+    &__info-wrapper {
+      width: 49%;
+    }
+    &__plate {
+      margin-left: -36px;
+      width: 270px;
+      height: 156px;
+    }
+  }
+
+  .gift {
+    padding-left: 0;
+    &__woman {
+      width: 240px;
+      height: 228px;
+      transform: translate(8px, 0);
+    }
+    &__bubble {
+      width: 280px;
+      height: 114px;
+    }
+    &__wrapper {
+      justify-content: center;
+    }
+    &__t-shirt {
+      transform: translateY(-111px);
+    }
+    &__heart {
+      &:hover {
+        animation: none;
+      }
+    }
+    &__text  {
+      &:hover {
+        &:after {
+          transform: rotate(-9deg) translate(22px,-50px) scale(0.7);
+        }
+      }
+    }
+    .form {
+      input {
+        width: 240px;
+        height: 50px;
+      }
+      .btn {
+        width: 240px;
+        height: 50px;
+        &:hover {
+          background-color: $red;
+          transform: none;
+        }
+        &_pink {
+          background-color: $lightBlue;
+          &:hover {
+            background-color: $lightBlue;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    &__menu {
+      width: 490px;
+    }
+    &__menu-item {
+      font-size: 26px;
+      &:hover {
+        color: $red;
+      }
+      &_pink {
+        &:hover {
+          color: $blue;
+        }
+      }
+    }
+    &__facebook {
+      &:hover {
+        &:before {
+          content: url("../icn/footer_facebook.svg");
+          transform: none;
+        }
+      }
+      &_pink {
+        &:hover {
+          &:before {
+            content: url("../icn/pink/footer_facebook.svg");
+          }
+        }
+      }
+    }
+    &__instagram {
+      &:hover {
+        &:before {
+          content: url("../icn/footer_instagram.svg");
+          transform: none;
+        }
+      }
+      &_pink {
+        &:hover {
+          &:before {
+            content: url("../icn/pink/footer_instagram.svg");
+          }
+        }
+      }
+    }
+    &__twitter {
+      &:hover {
+        &:before {
+          content: url("../icn/footer_twitter.svg");
+          transform: none;
+        }
+      }
+      &_pink {
+        &:hover {
+          &:before {
+            content: url("../icn/pink/footer_twitter.svg");
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    width: 340px;
+  }
+
+  .burger {
+    right: 30px;
+  }
+
+  .mobile {
+    &__menu {
+      padding: 10px 35px;
+    }
+    &__item {
+      a {
+        margin: 0 50px;
+        font-size: 26px;
+      }
+    }
+  }
+
+  .promo {
+    &__macaroni {
+      width: 300px;
+      height: 300px;
+    }
+
+    &__woman {
+      opacity: 1;
+      width: 140px;
+      height: 191px;
+    }
+
+    &__gift {
+      transform: translate(-15px, 130px);
+    }
+
+    &__arrow {
+      width: 55px;
+      height: 73px;
+      transform: translateY(-8px);
+      &:hover {
+        transform: translateY(-8px);
+      }
+    }
+  }
+
+  .macaroni {
+    &__bunch {
+      z-index: 0;
+      width: 220px;
+      height: 139px;
+      transform: translate(-150px, -10px);
+    }
+
+    &__macaronina {
+      margin-left: -190px;
+      margin-top: 94px;
+      width: 100px;
+      height: 88px;
+    }
+
+    &__cheese-wrapper {
+      margin-left: 25px;
+    }
+
+    &__cheese {
+      width: 190px;
+      height: 144px;
+    }
+
+    &__bubble {
+      width: 150px;
+      height: 80px;
+      margin-bottom: 10px;
+    }
+
+    &__info {
+      margin-left: 15px;
+      width: auto;
+    }
+
+    &__cubes {
+      width: 90px;
+      height: 88px;
+      top: 980px;
+    }
+  }
+  .descr {
+    font-size: 16px;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .recipes {
+    font-size: 24px;
+    margin-top: 5px;
+
+    &:after {
+      transform: scale(.7);
+    }
+  }
+
+  .penne {
+    &__info {
+      width: auto;
+    }
+
+    &__wrapper {
+      padding-left: 15px;
+    }
+
+    &__images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      transform: translateY(0);
+    }
+
+    &__macaroni {
+      width: 100px;
+      height: 60px;
+      transform: translateY(87px);
+      margin-right: 20px;
+    }
+
+    &__hearts {
+      width: 60px;
+      height: 37px;
+      margin-top: 55px;
+    }
+
+    &__tomato {
+      width: 120px;
+      height: 107px;
+    }
+
+    &__cheese {
+      width: 150px;
+      height: 113px;
+      margin-left: 50px;
+      transform: translateY(84px);
+      z-index: 1;
+    }
+
+    &__plate {
+      order: 1;
+      width: 270px;
+      height: 148px;
+      margin-top: -113px;
+      z-index: 0;
+    }
+  }
+
+  .farfalle {
+    height: 545px;
+    &__info {
+      width: 340px;
+    }
+    &__lines {
+      top: 2300px;
+      width: 260px;
+    }
+    &__img {
+      width: 190px;
+      height: 140px;
+    }
+    &__plate {
+      width: 320px;
+      height: 201px;
+    }
+    &__left {
+      height: 250px;
+    }
+    &__right {
+      padding-left: 15px;
+
+    }
+  }
+
+  .spaghetti {
+    &__wrapper {
+      flex-direction: column;
+      padding: 200px 0 0 10px;
+    }
+    &__info-wrapper {
+      width: 92%;
+    }
+    &__info {
+      z-index: 1;
+      width: 340px;
+    }
+    &__plate {
+      margin-left: -60px;
+    }
+    &__right {
+      position: absolute;
+      width: 70%;
+      right: 0;
+      transform: translateY(145px);
+      z-index: 0;
+    }
+  }
+
+  .gift {
+    padding-top: 90px;
+    padding-bottom: 40px;
+    justify-content: center;
+    &__woman {
+      width: 180px;
+      height: 171px;
+      transform: translate(-7px, 0);
+    }
+    &__wrapper {
+      width: 330px;
+      transform: translateY(-20px);
+      align-items: baseline;
+
+    }
+    &__t-shirt {
+      margin-left: 0;
+      width: 100px;
+      height: 137px;
+      transform: none;
+    }
+    &__bubble {
+      transform: translate(0, 0);
+      order: -1;
+      margin-left: 200px;
+      width: 200px;
+      height: 85px;
+    }
+    &__secret {
+      transform: translateY(0px);
+    }
+    &__secret {
+      margin-top: 20px;
+    }
+    &__heart {
+      width: 60px;
+      height: 60px;
+    }
+    &__smile {
+      width: 200px;
+      height: 123px;
+    }
+    &__text {
+      font-size: 32px;
+      &:after {
+        transform: rotate(-9deg) translate(22px,-30px) scale(.7);
+      }
+      &:hover {
+        &:after {
+          transform: rotate(-9deg) translate(22px,-30px) scale(.7);
+        }
+      }
+    }
+    .form {
+      margin-top: 15px;
+      order: 1;
+      input {
+        width: 300px;
+      }
+      .btn {
+        width: 300px;
+      }
+    }
+  }
+
+  .footer {
+    &__menu-item {
+      font-size: 18px;
+    }
+    &__menu {
+      width: 330px;
+    }
+    &__copyright {
+      font-size: 12px;
+    }
+  }
+
+}

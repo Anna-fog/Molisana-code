@@ -1,0 +1,48 @@
+.spaghetti {
+  background-color: $bg;
+  min-height: 950px;
+  &_pink {
+    background-color: $pinkBg;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 220px 0 0 80px;
+  }
+  &__info-wrapper {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+  }
+  &__info {
+    width: 585px;
+    position: relative;
+  }
+  &__right {
+    width: 55%;
+    height: 733px;
+    border-radius: 400px 0 0 400px;
+    background: #D1F2D0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_pink {
+      background: $darkPink;
+    }
+  }
+  &__plate {
+    margin-left: 90px;
+    width: 490px;
+    height: 284px;
+    z-index: 1;
+  }
+  &__dry {
+    margin-left: 40px;
+    width: 265px;
+    height: 530px;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+  }
+}

@@ -1,0 +1,66 @@
+@keyframes hearts {
+  from {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(10px) scale(0.9);
+  }
+  to {
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes bubble {
+  from {
+    transform: translate(-50px, 10px);
+  }
+
+  50% {
+    transform: translate(-35px, 0);
+  }
+
+  to {
+    transform: translate(-50px, 10px);
+  }
+}
+
+@keyframes bubble1 {
+  from {
+    transform: translate(-10px, 40px);
+  }
+
+  50% {
+    transform: translate(-20px, 50px);
+  }
+
+  to {
+    transform: translate(-10px, 40px);
+  }
+}
+
+
+@keyframes bubble2 {
+  from {
+    transform: translate(-20px, 10px);
+  }
+
+  50% {
+    transform: translate(-20px, 25px);
+  }
+
+  to {
+    transform: translate(-20px, 10px);
+  }
+}

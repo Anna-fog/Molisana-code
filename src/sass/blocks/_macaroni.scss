@@ -1,0 +1,65 @@
+.macaroni {
+  min-height: 949px;
+  padding: 40px 0;
+  background: url('../img/macaroni_bg-min.png') center (center/cover) no-repeat;
+  &_pink {
+    background: url('../img/pink/macaroni_bg-min.png') center (center/cover) no-repeat;
+  }
+
+  &__upper {
+    display: flex;
+  }
+  &__macaronina {
+    width: 255px;
+    height: 224px;
+    margin-left: -190px;
+    margin-top: 150px;
+  }
+  &__cheese {
+    width: 401px;
+    height: 340px;
+  }
+  &__cubes {
+    position: absolute;
+    right: 0;
+    top: 1440px;
+    width: 190px;
+    height: 187px;
+  }
+  &__bunch {
+    width: 580px;
+    height: 368px;
+    transform: translateX(-290px);
+  }
+  &__bubble {
+    width: 300px;
+    height: 160px;
+    animation: bubble2 3s ease-in infinite;
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
+  &__cheese-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 310px;
+  }
+  &__couple {
+    display: flex;
+  }
+  &__lower {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+  }
+  &__info {
+    position: relative;
+    margin-left: 70px;
+    width: 573px;
+  }
+  &__plate {
+    width: 475px;
+    height: 277px;
+  }
+
+}

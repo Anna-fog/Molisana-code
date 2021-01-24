@@ -1,0 +1,48 @@
+.penne {
+  min-height: 640px;
+  background-color: $bg;
+  padding-top: 90px;
+  &_pink {
+    background-color: $pinkBg;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 55px;
+    text-align: center;
+  }
+  &__info {
+    width: 560px;
+  }
+  &__images {
+    width: 1145px;
+    transform: translateY(-95px);
+  }
+  &__macaroni {
+    transform: translateY(55px);
+    width: 250px;
+    height: 150px;
+  }
+  &__plate {
+    width: 525px;
+    height: 288px;
+  }
+  &__tomato {
+    width: 308px;
+    height: 274px;
+  }
+  &__cheese {
+    width: 350px;
+    height: 265px;
+  }
+  &__hearts {
+    width: 125px;
+    height: 78px;
+    animation: hearts 2.5s ease infinite;
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
+
+}

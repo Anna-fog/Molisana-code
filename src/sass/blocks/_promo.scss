@@ -1,0 +1,116 @@
+.promo {
+  min-height: 935px;
+  background-color: $bg;
+  &_pink{
+    background-color: $pinkBg;
+  }
+  &__top {
+    height: 177px;
+    background: url('../img/promo_top-min.png') center (center/cover) no-repeat;
+    &_pink {
+      background: url('../img/pink/promo_top-min.png') center (center/cover) no-repeat;
+    }
+  }
+  &__img {
+    margin-top: 10px;
+  }
+  &__logo {
+    text-align: center;
+    right: 50%;
+    transition: all 0.5s ease;
+    img {
+      width: 165px;
+      height: 148px;
+      margin-top: 10px;
+    }
+
+    &:hover {
+      transform: scaleX(-1) skewY(10deg);
+    }
+  }
+  &__gift {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 0;
+  }
+  &__woman {
+    width: 280px;
+    height: 382px;
+    opacity: 0.9;
+  }
+  &__bubble {
+    width: 300px;
+    height: 128px;
+    margin-left: 125px;
+    transform: translateY(40px);
+    animation: bubble1 3.5s ease-in infinite;
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
+  &__arrow {
+    width: 90px;
+    height: 121px;
+    transition: transform 0.5s ease;
+    &:hover {
+      transform: translateY(35px);
+    }
+  }
+  &__click {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 540px;
+  }
+  &__menu-item {
+    transform: rotate(90deg);
+    color: $orange;
+    font-size: 32px;
+    transition: all 0.3s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    &:hover {
+      text-decoration: none;
+      color: $red;
+      background: url("../img/menu_bg-min.png") center (center/cover) no-repeat;
+    }
+    &_pink {
+      color: $blue;
+      &:hover {
+        text-decoration: none;
+        color: $textPink;
+        background: url("../img/menu_bg-min.png") center (center/cover) no-repeat;
+      }
+    }
+  }
+  &__menu-bg{
+    transform: rotate(90deg);
+    position: absolute;
+  }
+  &__macaroni {
+    position: absolute;
+    transform: translate(50%,0);
+    right: 50%;
+    width: 540px;
+    height: 541px;
+    transition: transform 0.5s ease, color 0.5s ease, filter 0.5s ease;
+    &:hover {
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)) brightness(1.1);
+      transform: translate(50%,0) rotate(720deg);
+    }
+  }
+}

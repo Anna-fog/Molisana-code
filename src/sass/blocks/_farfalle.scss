@@ -1,0 +1,54 @@
+.farfalle {
+  height: 600px;
+  background-color: $green;
+  &_pink{
+    background-color: $darkPink;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__lines {
+    position: absolute;
+    top: 2900px;
+    left: 15px;
+    z-index: 0;
+    width: 500px;
+    height: 1589px;
+  }
+  &__left {
+    background: url('../img/farfalle_bg-min.png') center (center/cover) no-repeat;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    z-index: 0;
+    &_pink {
+      background: url('../img/pink/farfalle_bg-min.png') center (center/cover) no-repeat;
+    }
+  }
+  &__img {
+    width: 350px;
+    height: 259px;
+    transition: transform 0.5s ease;
+    &:hover {
+      transform: rotate(180deg);
+    }
+  }
+  &__info {
+    width: 609px;
+  }
+  &__right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+  }
+  &__plate {
+    width: 600px;
+    height: 378px;
+  }
+
+}

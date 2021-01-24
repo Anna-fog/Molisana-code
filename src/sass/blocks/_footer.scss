@@ -1,0 +1,126 @@
+.footer {
+  min-height: 200px;
+  background-color: $bg;
+  &_pink {
+    background-color: $pinkBg;
+  }
+  &__wrapper {
+    height: 200px;
+    background: url('../img/promo_top-min.png') center (center/cover) no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  &__items {
+    display: flex;
+  }
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    width: 670px;
+    margin: 0 auto;
+  }
+  &__menu-item {
+    color: $red;
+    font-size: 32px;
+    transition: all 0.3s;
+    &:hover {
+      text-decoration: none;
+      color: $orange;
+    }
+    &_pink {
+      color: $blue;
+      &:hover {
+        color: $textPink;
+      }
+    }
+  }
+  &__social {
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    position: absolute;
+    right: 140px;
+    top: 35%;
+  }
+  &__copyright {
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    color: $red;
+    transform: translateY(25px);
+    &_pink {
+      color: $blue;
+    }
+  }
+  &__facebook {
+    &:hover {
+      &:before {
+        content: url("../icn/footer_facebook1.svg");
+        transform: rotate(15deg);
+      }
+    }
+    &:before {
+      display: block;
+      content: url("../icn/footer_facebook.svg");
+      transition: all 0.5s ease;
+    }
+    &_pink {
+      &:before {
+        content: url("../icn/pink/footer_facebook.svg");
+      }
+      &:hover {
+        &:before {
+          content: url("../icn/pink/footer_facebook1.svg");
+        }
+      }
+    }
+  }
+  &__instagram {
+    &:hover {
+      &:before {
+        content: url("../icn/footer_instagram1.svg");
+        transform: rotate(15deg);
+      }
+    }
+    &:before {
+      display: block;
+      content: url("../icn/footer_instagram.svg");
+      transition: all 0.3s;
+    }
+    &_pink {
+      &:before {
+        content: url("../icn/pink/footer_instagram.svg");
+      }
+      &:hover {
+        &:before {
+          content: url("../icn/pink/footer_instagram1.svg");
+        }
+      }
+    }
+  }
+  &__twitter {
+    &:hover {
+      &:before {
+        content: url("../icn/footer_twitter1.svg");
+        transform: rotate(15deg);
+      }
+    }
+    &:before {
+      display: block;
+      content: url("../icn/footer_twitter.svg");
+      transition: all 0.3s;
+    }
+    &_pink {
+      &:before {
+        content: url("../icn/pink/footer_twitter.svg");
+      }
+      &:hover {
+        &:before {
+          content: url("../icn/pink/footer_twitter1.svg");
+        }
+      }
+    }
+  }
+}
