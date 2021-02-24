@@ -54,73 +54,33 @@
       color: $blue;
     }
   }
-  &__facebook {
+
+  &__link {
+    transition: .5s all ease;
     &:hover {
-      &:before {
-        content: url("../icn/footer_facebook1.svg");
-        transform: rotate(15deg);
-      }
+      transform: rotate(15deg);
     }
-    &:before {
-      display: block;
-      content: url("../icn/footer_facebook.svg");
-      transition: all 0.5s ease;
+  }
+
+  &__svg {
+    transition: .5s all ease;
+    path {
+      transition: .5s all ease;
+    }
+    &:hover {
+      fill: #FB8C2B;
+      path {
+        fill: #FB8C2B;
+      }
     }
     &_pink {
-      &:before {
-        content: url("../icn/pink/footer_facebook.svg");
-      }
       &:hover {
-        &:before {
-          content: url("../icn/pink/footer_facebook1.svg");
+        fill: #634243;
+        path {
+          fill: #634243;
         }
       }
     }
   }
-  &__instagram {
-    &:hover {
-      &:before {
-        content: url("../icn/footer_instagram1.svg");
-        transform: rotate(15deg);
-      }
-    }
-    &:before {
-      display: block;
-      content: url("../icn/footer_instagram.svg");
-      transition: all 0.3s;
-    }
-    &_pink {
-      &:before {
-        content: url("../icn/pink/footer_instagram.svg");
-      }
-      &:hover {
-        &:before {
-          content: url("../icn/pink/footer_instagram1.svg");
-        }
-      }
-    }
-  }
-  &__twitter {
-    &:hover {
-      &:before {
-        content: url("../icn/footer_twitter1.svg");
-        transform: rotate(15deg);
-      }
-    }
-    &:before {
-      display: block;
-      content: url("../icn/footer_twitter.svg");
-      transition: all 0.3s;
-    }
-    &_pink {
-      &:before {
-        content: url("../icn/pink/footer_twitter.svg");
-      }
-      &:hover {
-        &:before {
-          content: url("../icn/pink/footer_twitter1.svg");
-        }
-      }
-    }
-  }
+
 }

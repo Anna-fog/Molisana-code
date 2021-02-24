@@ -15,8 +15,10 @@
     margin-top: 10px;
   }
   &__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    right: 50%;
     transition: all 0.5s ease;
     img {
       width: 165px;
@@ -26,8 +28,20 @@
 
     &:hover {
       transform: scaleX(-1) skewY(10deg);
+      img {
+        opacity: 1;
+        transform: rotateY(180deg) translate(0);
+      }
     }
   }
+
+  &__click-arrow {
+    opacity: 0;
+    position: absolute;
+    transform: rotateY(180deg) rotate(14deg) translate(-80px,-20px);
+    transition: .4s all;
+  }
+
   &__gift {
     display: flex;
     flex-direction: column;

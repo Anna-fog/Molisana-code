@@ -68,9 +68,9 @@
     margin-top: 20px;
     width: 90px;
     height: 99px;
-    animation-play-state: paused;
+    animation: heartbeat 2s ease infinite;
     &:hover {
-      animation: heartbeat 1s ease infinite;
+      animation-play-state: paused;
     }
   }
   &__smile {

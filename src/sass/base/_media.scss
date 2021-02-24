@@ -652,7 +652,13 @@
     &__logo {
       &:hover {
         transform: none;
+        img {
+          transform: rotateY(0)
+        }
       }
+    }
+    &__click-arrow {
+      display: none;
     }
   }
   .descr {
@@ -799,11 +805,11 @@
       margin-top: 0;
       transform: translateY(-20px);
     }
-    &__img {
-      &:hover {
-        transform: none;
-      }
-    }
+    //&__img {
+    //  &:hover {
+    //    transform: none;
+    //  }
+    //}
   }
 
   .spaghetti {
@@ -889,51 +895,32 @@
         }
       }
     }
-    &__facebook {
+
+    &__link {
       &:hover {
-        &:before {
-          content: url("../icn/footer_facebook.svg");
-          transform: none;
+        transform: rotate(0);
+      }
+    }
+
+    &__svg {
+      &:hover {
+        fill: #D94D1A;
+        path {
+          fill: #D94D1A;
         }
       }
       &_pink {
         &:hover {
-          &:before {
-            content: url("../icn/pink/footer_facebook.svg");
+          fill: #6C98A3;
+          path {
+            fill: #6C98A3;
           }
         }
       }
     }
-    &__instagram {
-      &:hover {
-        &:before {
-          content: url("../icn/footer_instagram.svg");
-          transform: none;
-        }
-      }
-      &_pink {
-        &:hover {
-          &:before {
-            content: url("../icn/pink/footer_instagram.svg");
-          }
-        }
-      }
-    }
-    &__twitter {
-      &:hover {
-        &:before {
-          content: url("../icn/footer_twitter.svg");
-          transform: none;
-        }
-      }
-      &_pink {
-        &:hover {
-          &:before {
-            content: url("../icn/pink/footer_twitter.svg");
-          }
-        }
-      }
-    }
+
+
+
   }
 }
 

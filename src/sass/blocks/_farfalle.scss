@@ -33,7 +33,7 @@
     height: 259px;
     transition: transform 0.5s ease;
     &:hover {
-      transform: rotate(180deg);
+      animation: rotate 1s ease;
     }
   }
   &__info {
